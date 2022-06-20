@@ -1,100 +1,100 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: #f7f7f7;
+  background-color: #f7f7f7;
 }
 
 h1 {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .menu {
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    text-transform: uppercase;
-    justify-content: center;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  justify-content: center;
+  list-style: none;
 }
 
-.menu a {
-    padding: 15px 30px;
-    margin: 20px;
-    background-color: #fff;
-    color: #000;
+.menu li {
+  padding: 15px 30px;
+  margin: 20px;
+  background-color: #fff;
+  color: #000;
 }
 
 .conteudo-area {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .conteudo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
 }
 
-.resumo {  
-    padding: 40px;
-    text-align: right;
-    display: grid;
-    align-content: center;
-    gap: 20px;
-    justify-items: end;
-    background-color: #fff;
+.resumo {
+  padding: 40px;
+  text-align: right;
+  display: grid;
+  align-content: center;
+  gap: 20px;
+  justify-items: end;
+  background-color: #fff;
 }
 
-.resumo a {  
-    display: inline-block;
-    margin-top: 20px;
-    padding: 15px 30px;
-    background-color: #e21;
-    color: #fff;
-    border-radius: 4px;
-    text-transform: uppercase;
+.resumo a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #e21;
+  color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
 }
 
 .bike-img {
-    width: 100%;
+  width: 100%;
 }
 
 .vantagens {
-    font-size: 4rem;
-    padding: 40px;
-    color: #d3d3d3;
-    font-weight: bold;
-    text-align: end;
-    align-self: center;
+  font-size: 4rem;
+  padding: 40px;
+  color: #d3d3d3;
+  font-weight: bold;
+  text-align: end;
+  align-self: center;
 }
 
 .icons {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding: 40px;
-    background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+  background-color: #fff;
 }
 
 .rodape {
-    margin-top: 20px;
-    background-color: #fff;
-    padding: 40px;
-    text-align: center;
-    font-weight: bold;
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 40px;
+  text-align: center;
+  font-weight: bold;
 }
