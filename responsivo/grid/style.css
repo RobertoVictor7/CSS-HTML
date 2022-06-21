@@ -13,7 +13,7 @@ p {
     font-size: 2rem;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
     .minmax img {
         order: 2;
     }
